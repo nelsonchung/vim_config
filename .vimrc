@@ -32,7 +32,9 @@ map <f9> :Tlist<CR>
 "let Tlist_Use_Right_Window = 1 "在右侧窗口中显示taglist窗口 
 let Tlist_WinWidth=40
 """""""""""""""""""""""""for NERDTree""""""""""""""""""""""""""""""""""""
-map <f10> :NERDTree<CR>
+"map <f10> :NERDTree<CR>
+map <f10> :NERDTreeToggle<CR>
+map <f10> <ESC> :NERDTreeToggle<CR>
 let g:NERDTreeWinPos = "right"
 let NERDTreeWinSize=50 "如果視窗太小，可以採用
 """""""""""""""""""""""""for tabe""""""""""""""""""""""""""""""""""""""""
